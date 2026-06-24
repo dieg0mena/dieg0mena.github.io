@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programmer -Diego Mena</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body style="background-color: rgb(220, 234, 252);">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
+    <div class="container">
+      <a class="navbar-brand logo" href="../cv.html#accueil">Diego.</a>
+    </div>
+  </nav>
+
+  <div class="sae-page">
+    <a href="../cv.html#competences" class="back-btn">← Retour aux compétences</a>
+    <div class="sae-header">
+      <span class="badge-competence" style="background:#b7950b;">💻 Programmer</span>
+      <h2>Automatisation et développement d'outils logiciels</h2>
+      <p class="text-muted">BUT R&T -Parcours Cybersécurité -IUT de Béthune</p>
+    </div>
+
+    <!-- NIVEAU 1 -->
+    <div class="niveau-section">
+      <div class="niveau-header" style="background:#b7950b;">Niveau 1 -S'intégrer dans un service informatique</div>
+
+      <div class="sae-card" style="border-left-color:#b7950b;">
+        <h3>SAÉ 1.4 -Se présenter sur Internet</h3>
+        <h5>Contexte</h5>
+        <p>Création d'une première page web personnelle pour se présenter sur Internet dans un cadre professionnel, en tant que futur technicien R&T.</p>
+        <h5>Mission</h5>
+        <p>Développement d'un site web portfolio incluant : nom et prénom, photo, description personnelle, compétences, expériences professionnelles, formations et centres d'intérêt.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Développement web (HTML/CSS)</li>
+          <li>Hébergement et mise en ligne</li>
+          <li>Communication professionnelle en ligne</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#b7950b;">
+        <h3>SAÉ 1.5 -Traiter des données</h3>
+        <h5>Contexte</h5>
+        <p>Démonstration de la capacité à récupérer des données sur un réseau, à les transformer après calculs, et à les transmettre automatiquement vers un serveur web.</p>
+        <h5>Mission</h5>
+        <p>Développement d'un script automatisé récupérant des données CSV sur data.gouv.fr, appliquant des traitements (moyennes, maximum, filtrage), les convertissant en JSON, et les transmettant à un site web pour affichage graphique. Gestion de projet via GitLab.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Python : traitement de données CSV/JSON</li>
+          <li>Requêtes HTTP et APIs web</li>
+          <li>Visualisation de données</li>
+          <li>Gestion de version avec GitLab</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#b7950b;">
+        <h3>SAÉ 2.1 -Construire un réseau informatique pour une petite structure</h3>
+        <h5>Contexte</h5>
+        <p>Dans le cadre de l'infrastructure complète d'entreprise, développement de scripts pour automatiser la gestion des services et exploitation des capacités réseau à des fins de sécurité offensive et de surveillance.</p>
+        <h5>Missions</h5>
+        <ul>
+          <li><strong>Scripts d'administration Docker (Bash)</strong> : développement d'un script Bash pour automatiser la gestion des conteneurs Docker (démarrage, arrêt, mise à jour des services TFTP, BDD, Web).</li>
+          <li><strong>Analyse réseau offensive (Python Scapy)</strong> : script Python avec Scapy pour reconstituer une conversation VoIP interceptée sur un réseau non sécurisé. Mise en œuvre d'une attaque VLAN Hopping puis déploiement des contre-mesures.</li>
+          <li><strong>Reconnaissance vidéo (Python OpenCV)</strong> : script Python utilisant OpenCV pour la reconnaissance automatique de badges avec journalisation des entrées/sorties (date, heure, nom, prénom).</li>
+        </ul>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Bash : automatisation et gestion de conteneurs Docker</li>
+          <li>Python Scapy : analyse et manipulation de trames réseau</li>
+          <li>Python OpenCV : reconnaissance visuelle et journalisation</li>
+          <li>Sécurité offensive : VLAN hopping et contre-mesures</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#b7950b;">
+        <h3>SAÉ 2.3 -Dynamiser le portfolio avec Flask</h3>
+        <h5>Contexte</h5>
+        <p>Évolution du portfolio statique vers une application web dynamique utilisant le framework Flask, avec interaction base de données pour la gestion des compétences.</p>
+        <h5>Mission</h5>
+        <p>Reprise du site portfolio en HTML/CSS et transformation en application web Flask. Mise en place d'une base de données MySQL/PostgreSQL pour stocker et afficher les compétences acquises. Utilisation du système de templates Flask pour organiser le code. Projet réalisé individuellement.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Python Flask : framework web, templates Jinja2</li>
+          <li>SQL : MySQL/PostgreSQL, requêtes et gestion des données</li>
+          <li>Développement web full-stack (front + back)</li>
+          <li>Déploiement d'application web</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- NIVEAU 2 -->
+    <div class="niveau-section">
+      <div class="niveau-header" style="background:#d4ac0d;">Niveau 2 -Développer une application R&T</div>
+
+      <div class="sae-card" style="border-left-color:#d4ac0d;">
+        <h3>SAÉ 3.2 -Développer un serveur de recherche documentaire</h3>
+        <h5>Contexte</h5>
+        <p>Développement d'un service réseau applicatif client-serveur permettant la recherche de mots dans des documents de formats variés (txt, HTML, PDF, Excel).</p>
+        <h5>Mission</h5>
+        <p>Développement d'un serveur Python offrant un service de recherche multi-format avec affichage du contexte (ligne trouvée, textes environnants). Respect PEP 8, découpage en fonctions simples, docstrings, constantes nommées, chemins relatifs. Projet GitLab avec README en anglais et fichier requirements.txt.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Python : architecture client-serveur, PEP 8</li>
+          <li>Traitement de fichiers multi-formats (txt, HTML, PDF, xlsx)</li>
+          <li>Documentation technique (README, docstrings)</li>
+          <li>Gestion de version et collaboration via GitLab</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#d4ac0d;">
+        <h3>SAÉ 4.1 -Sécuriser un réseau d'entreprise inter-sites</h3>
+        <h5>Contexte</h5>
+        <p>En quadrinôme, réalisation d'une maquette Packet Tracer d'un réseau d'entreprise sur deux sites distants avec segmentation avancée et sécurisation complète.</p>
+        <h5>Mission</h5>
+        <p>Conception et configuration d'une maquette avec trois réseaux LAN par site (Service / Production / Admin), tunnel IPsec GRE inter-sites, rédaction d'un Write Up complet. Spécialisation individuelle sur l'un des axes : sécurisation DNS (DNSSEC), sécurisation Web (HTTPS), tests de sécurité, ou recommandations ANSSI (checklist).</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Packet Tracer : modélisation réseau avancée</li>
+          <li>VPN IPsec GRE inter-sites</li>
+          <li>DNSSEC, HTTPS, tests de sécurité ou référentiel ANSSI</li>
+          <li>Rédaction d'un Write Up technique détaillé</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="container">
+      <a href="../mentionslegales.html">Mentions légales</a>
+    </div>
+  </footer>
+</body>
+</html>

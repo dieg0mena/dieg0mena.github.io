@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connecter -Diego Mena</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body style="background-color: rgb(220, 234, 252);">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
+    <div class="container">
+      <a class="navbar-brand logo" href="../cv.html#accueil">Diego.</a>
+    </div>
+  </nav>
+
+  <div class="sae-page">
+    <a href="../cv.html#competences" class="back-btn">← Retour aux compétences</a>
+    <div class="sae-header">
+      <span class="badge-competence" style="background:#d35400;">🔌 Connecter</span>
+      <h2>Déploiement des systèmes de communications</h2>
+      <p class="text-muted">BUT R&T -Parcours Cybersécurité -IUT de Béthune</p>
+    </div>
+
+    <!-- NIVEAU 1 -->
+    <div class="niveau-section">
+      <div class="niveau-header" style="background:#d35400;">Niveau 1 -Découvrir les transmissions et la ToIP</div>
+
+      <div class="sae-card" style="border-left-color:#d35400;">
+        <h3>SAÉ 1.3 -Caractériser les systèmes de transmission</h3>
+        <h5>Contexte</h5>
+        <p>Le professionnel R&T doit être capable de caractériser une liaison physique (cuivre, fibre optique, hertzienne), d'effectuer des mesures et de présenter les résultats à un client ou un collaborateur.</p>
+        <h5>Mission</h5>
+        <p>Caractérisation d'un système de transmission selon deux paramètres principaux : l'atténuation et le retard. Analyse théorique, simulation et mesures directes pour qualifier les performances d'une liaison physique.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Caractérisation de liaisons physiques (cuivre, fibre, hertzien)</li>
+          <li>Mesure d'atténuation et de retard</li>
+          <li>Présentation et analyse de résultats techniques</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#d35400;">
+        <h3>SAÉ 2.1 -Construire un réseau informatique pour une petite structure</h3>
+        <h5>Contexte</h5>
+        <p>L'entreprise fictive doit migrer vers la téléphonie sur IP et déployer des objets connectés (IoT) sur son réseau, dont des capteurs LoRa pour la supervision du local serveur.</p>
+        <h5>Missions</h5>
+        <ul>
+          <li><strong>Téléphonie IP (ToIP)</strong> : configuration du serveur de téléphonie IP, mise en service des postes IP sur le réseau, mise en place de la QoS pour prioriser le trafic voix.</li>
+          <li><strong>Réseau LoRa & IoT</strong> : connexion et configuration des capteurs LoRa sur la passerelle de la pépinière, analyse mathématique de la portée radio, visualisation des données via MQTT sur l'intranet.</li>
+        </ul>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Téléphonie IP (ToIP), protocole SIP</li>
+          <li>QoS -priorisation du trafic voix</li>
+          <li>Protocole LoRa / LoRaWAN</li>
+          <li>Analyse de couverture radio et calculs de portée</li>
+        </ul>
+      </div>
+      
+      <div class="sae-card" style="border-left-color:#d35400;">
+        <h3>SAÉ 2.2 -Mesurer et caractériser un système de transmission</h3>
+        <h5>Contexte</h5>
+        <p>Suite à une installation, une configuration ou un dépannage sur site, le professionnel R&T doit attester de la conformité des équipements en mesurant et caractérisant le système de transmission (NRO, NRA, etc.).</p>
+        <h5>Mission</h5>
+        <p>Identification des paramètres pertinents pour assurer une transmission de qualité, sélection des appareils de mesure adéquats, réalisation des mesures (cartographie radio, hypsogramme), analyse et présentation des résultats.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Mesures sur systèmes de transmission (NRO, NRA)</li>
+          <li>Cartographie radio et hypsogramme</li>
+          <li>Analyse et interprétation de mesures terrain</li>
+          <li>Rédaction de compte-rendu d'intervention</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- NIVEAU 2 -->
+    <div class="niveau-section">
+      <div class="niveau-header" style="background:#e67e22;">Niveau 2 -Maîtriser les différentes composantes des solutions de connexion des entreprises et des usagers</div>
+
+      <div class="sae-card" style="border-left-color:#e67e22;">
+        <h3>SAÉ 3.1 -Étude et mise en œuvre d'un système de transmission</h3>
+        <h5>Contexte</h5>
+        <p>Mise en œuvre d'un système de transmission sans fil à l'aide d'un émetteur/récepteur HF (Adalm-Pluto), en binôme et en situation d'autonomie professionnelle. La SAÉ couvre la transmission hertzienne, en complément des transmissions sur câbles et fibres optiques abordées dans d'autres ressources.</p>
+        <h5>Missions</h5>
+        <ul>
+          <li><strong>Thème 1 - Recherche bibliographique</strong> : étude des fréquences utilisables, synthèse sur l'émetteur/récepteur Adalm-Pluto et sur l'analyseur de spectres (logiciel MCS + matériel Spectran).</li>
+          <li><strong>Thème 2 - Prise en main de GNUradio</strong> : découverte de l'interface, analyse de diagrammes de flux et de constellation, étude des modulations ASK, PSK et QAM.</li>
+          <li><strong>Thème 3 - Analyse de spectre (MCS)</strong> : assemblage et prise en main de l'analyseur, analyse de spectres radio réels (GSM, 3G, LTE), création d'un template projet.</li>
+          <li><strong>Thème 4 - GNUradio & Adalm-Pluto</strong> : analyse d'un signal reçu via l'Adalm-Pluto, retransmission des données reçues via des sockets.</li>
+          <li><strong>Thème 5 - Mise en œuvre complète</strong> : communication entre deux Adalm-Pluto, analyse spectrale de l'échange, vérification du niveau d'émission (porteuse), diffusion audio et vidéo.</li>
+        </ul>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Transmission hertzienne et radio logicielle (SDR)</li>
+          <li>GNUradio - traitement du signal et modulations (ASK, PSK, QAM)</li>
+          <li>Analyse de spectre radio (GSM, 3G, LTE) avec MCS et Spectran</li>
+          <li>Émetteur/récepteur Adalm-Pluto - configuration et mesures</li>
+          <li>Autonomie, recherche bibliographique et restitution (rapport + soutenance)</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#e67e22;">
+        <h3>SAÉ 3.3 -Déployer une infrastructure multi-sites sécurisée</h3>
+        <h5>Contexte</h5>
+        <p>Déploiement de l'infrastructure réseau sur deux sites distants (siège et succursale) interconnectés de façon sécurisée.</p>
+        <h5>Mission</h5>
+        <p>Configuration des liaisons inter-sites (WAN), mise en place du Wi-Fi sécurisé (personnel + invité) sur les deux sites, déploiement des accès distants SSH restreints au réseau ADMIN, et synchronisation des services entre sites (DNS réplicat, partage de fichiers).</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Interconnexion WAN entre sites distants</li>
+          <li>Wi-Fi sécurisé (réseau personnel et invité)</li>
+          <li>Accès distants sécurisés (SSH, interface Web)</li>
+          <li>Synchronisation de services inter-sites</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="page-footer">
+    <div class="container">
+      <a href="../mentionslegales.html">Mentions légales</a>
+    </div>
+  </footer>
+</body>
+</html>

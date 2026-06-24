@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surveiller - Diego Mena</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body style="background-color: rgb(220, 234, 252);">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark page-navbar gradient">
+    <div class="container">
+      <a class="navbar-brand logo" href="../cv.html#accueil">Diego.</a>
+    </div>
+  </nav>
+
+  <div class="sae-page">
+    <a href="../cv.html#competences" class="back-btn">← Retour aux compétences</a>
+    <div class="sae-header">
+      <span class="badge-competence" style="background:#1a5276;">📡 Surveiller</span>
+      <h2>Surveillance et analyse du système d'information</h2>
+      <p class="text-muted">BUT R&T - Parcours Cybersécurité - IUT de Béthune</p>
+    </div>
+
+    <!-- NIVEAU 1 -->
+    <div class="niveau-section">
+      <div class="niveau-header" style="background:#1a5276;">Niveau 1 - Prendre en main les outils de surveillance et de test du système d'information</div>
+
+      <div class="sae-card" style="border-left-color:#1a5276;">
+        <h3>SAÉ 2.1 - Construire un réseau informatique pour une petite structure</h3>
+        <h5>Contexte</h5>
+        <p>L'entreprise fictive dispose d'une infrastructure complète à surveiller : réseau non sécurisé exposé aux interceptions, local serveur à monitorer en température, et caméras IP pour le contrôle des accès physiques.</p>
+        <h5>Missions</h5>
+        <ul>
+          <li><strong>Analyse réseau (Wireshark & Scapy)</strong> : analyse d'une capture de trames issue d'un routeur non sécurisé pour identifier les flux non chiffrés. Développement d'un script Python avec Scapy pour reconstituer et écouter une conversation VoIP interceptée.</li>
+          <li><strong>Supervision IoT & température (MQTT)</strong> : connexion d'une sonde de température au réseau LoRa de la pépinière, souscription aux données via MQTT, et visualisation en temps réel de la courbe de température sur l'intranet (accès administrateurs uniquement).</li>
+          <li><strong>Surveillance vidéo & contrôle d'accès (OpenCV)</strong> : intégration des flux caméra IP sur l'intranet et développement d'un script Python OpenCV pour la reconnaissance automatique de badges, avec journalisation des entrées/sorties (date, heure, nom, prénom).</li>
+        </ul>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Wireshark - analyse de trames et identification des protocoles</li>
+          <li>Python Scapy - manipulation programmatique de paquets réseau</li>
+          <li>Protocole MQTT et LoRa/LoRaWAN - supervision IoT</li>
+          <li>Python OpenCV - traitement d'image et reconnaissance visuelle</li>
+          <li>Journalisation des événements et supervision temps réel</li>
+        </ul>
+      </div>
+
+      <div class="sae-card" style="border-left-color:#1a5276;">
+        <h3>SAÉ 3.3 - Déployer une infrastructure multi-sites sécurisée</h3>
+        <h5>Contexte</h5>
+        <p>Dans le cadre de l'infrastructure multi-sites de l'entreprise fictive, mise en place d'une supervision centralisée de l'ensemble des équipements réseau et des serveurs.</p>
+        <h5>Mission</h5>
+        <p>Déploiement d'un serveur Syslog centralisé pour la collecte des journaux système de tous les équipements (switchs, routeurs, serveurs). Configuration des équipements pour l'envoi des logs vers le serveur central. Organisation des logs par source et type d'événement pour faciliter le diagnostic et l'analyse d'incidents.</p>
+        <h5>Compétences mobilisées</h5>
+        <ul>
+          <li>Syslog - collecte centralisée des journaux système</li>
+          <li>Configuration des équipements réseau pour l'envoi des logs</li>
+          <li>Organisation et analyse des logs par source et type</li>
+          <li>Diagnostic d'incidents à partir des journaux</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="page-footer">
+    <div class="container">
+      <a href="../mentionslegales.html">Mentions légales</a>
+    </div>
+  </footer>
+</body>
+</html>
